@@ -1,0 +1,40 @@
+{"level":"DEBUG","time":"2023-08-16T11:06:58.704+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"DEBUG","time":"2023-08-16T11:06:58.727+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"ERROR","time":"2023-08-16T11:06:58.727+0800","caller":"redis/redis.go:27","msg":"redis connect failed","error":"dial tcp :0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-08-16T11:06:58.727+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-16T11:07:27.215+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-16T11:07:27.220+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-16T14:37:55.048+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"DEBUG","time":"2023-08-16T14:37:55.082+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"ERROR","time":"2023-08-16T14:37:55.083+0800","caller":"redis/redis.go:27","msg":"redis connect failed","error":"dial tcp :0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-08-16T14:37:55.083+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-16T15:01:16.986+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-16T15:01:16.986+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-16T16:12:29.224+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"DEBUG","time":"2023-08-16T16:12:29.239+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"ERROR","time":"2023-08-16T16:12:29.239+0800","caller":"redis/redis.go:27","msg":"redis connect failed","error":"dial tcp :0: connectex: The requested address is not valid in its context."}
+{"level":"DEBUG","time":"2023-08-16T16:12:29.240+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-16T16:13:32.482+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-16T16:13:32.482+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-16T16:13:37.533+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"DEBUG","time":"2023-08-16T16:13:37.543+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"DEBUG","time":"2023-08-16T16:13:37.545+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-16T16:13:49.730+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-16T16:13:49.730+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-16T16:13:56.660+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"DEBUG","time":"2023-08-16T16:13:56.670+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"ERROR","time":"2023-08-16T16:13:58.720+0800","caller":"redis/redis.go:27","msg":"redis connect failed","error":"dial tcp 127.0.0.1:6379: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","time":"2023-08-16T16:13:58.720+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-16T16:42:19.785+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-16T16:42:19.785+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-16T17:09:34.682+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"ERROR","time":"2023-08-16T17:09:34.703+0800","caller":"mysql/mysql.go:24","msg":"connect DB failed","error":"Error 1045: Access denied for user 'root'@'172.17.0.1' (using password: YES)"}
+{"level":"DEBUG","time":"2023-08-16T17:09:34.703+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"DEBUG","time":"2023-08-16T17:09:34.704+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-16T17:29:33.517+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-16T17:29:33.517+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-16T17:29:34.388+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"DEBUG","time":"2023-08-16T17:29:34.403+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"DEBUG","time":"2023-08-16T17:29:34.405+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-16T17:29:42.553+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-16T17:29:42.553+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
