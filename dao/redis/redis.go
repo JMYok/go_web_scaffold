@@ -3,8 +3,8 @@ package redis
 import (
 	"fmt"
 	"github.com/go-redis/redis"
-	"github.com/spf13/viper"
 	"go.uber.org/zap"
+	"go_web_scaffold/settings"
 )
 
 // 声明一个全局的rdb变量
@@ -14,12 +14,12 @@ var rdb *redis.Client
 func Init() (err error) {
 	rdb = redis.NewClient(&redis.Options{
 		Addr: fmt.Sprintf("%s:%d",
-			viper.GetString("redis.host"),
-			viper.GetInt("redis.port")),
-		Password: viper.GetString("redis.password"),
+			settings.Conf.RedisConfig.Host,
+			settings.Conf.RedisConfig.Port),
+		Password: settings.Conf.RedisConfig.Password,
 		// use default DB
-		DB:       viper.GetInt("redis.db"),
-		PoolSize: viper.GetInt("redis.pool_size"),
+		DB:       settings.Conf.RedisConfig.DB,
+		PoolSize: settings.Conf.RedisConfig.PoolSize,
 	})
 
 	_, err = rdb.Ping().Result()

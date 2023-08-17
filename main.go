@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"github.com/spf13/viper"
 	"go.uber.org/zap"
 	"go_web_scaffold/dao/mysql"
 	"go_web_scaffold/dao/redis"
@@ -22,37 +21,34 @@ import (
 func main() {
 	//1.加载配置文件
 	if err := settings.Init(); err != nil {
-		fmt.Printf("init settings failed,err:%v\n", err)
+		fmt.Printf("init settings failed,err:%v\n", zap.Error(err))
 	}
 
 	//2.初始化日志
 	if err := logger.Init(); err != nil {
-		fmt.Printf("init logger failed,err:%v\n", err)
+		fmt.Printf("init logger failed,err:%v\n", zap.Error(err))
 	}
 	//把缓冲区的日志追加到日志文件中
 	defer zap.L().Sync()
-	zap.L().Debug("init logger success!")
 
 	//3.初始化Mysql
 	if err := mysql.Init(); err != nil {
-		fmt.Printf("init mysql failed,err:%v\n", err)
+		fmt.Printf("init mysql failed,err:%v\n", zap.Error(err))
 	}
 	defer mysql.Close()
-	zap.L().Debug("init mysql success!")
 
 	//4.初始化Redis
 	if err := redis.Init(); err != nil {
-		fmt.Printf("init redis failed,err:%v\n", err)
+		fmt.Printf("init redis failed,err:%v\n", zap.Error(err))
 	}
 	defer redis.Close()
-	zap.L().Debug("init redis success!")
 
 	//5.注册路由
 	r := routes.Setup()
 
 	//6.启动服务(优雅关机)
 	srv := &http.Server{
-		Addr:    fmt.Sprintf(":%d", viper.GetInt("app.port")),
+		Addr:    fmt.Sprintf("%s:%d", settings.Conf.Host, settings.Conf.Port),
 		Handler: r,
 	}
 

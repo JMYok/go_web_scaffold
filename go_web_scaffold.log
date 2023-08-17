@@ -38,3 +38,52 @@
 {"level":"DEBUG","time":"2023-08-16T17:29:34.405+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
 {"level":"INFO","time":"2023-08-16T17:29:42.553+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
 {"level":"INFO","time":"2023-08-16T17:29:42.553+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-17T09:50:11.986+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"ERROR","time":"2023-08-17T09:50:12.003+0800","caller":"mysql/mysql.go:24","msg":"connect DB failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"DEBUG","time":"2023-08-17T09:50:12.003+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"DEBUG","time":"2023-08-17T09:50:12.005+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-17T09:50:27.653+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T09:50:27.653+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-17T09:50:28.533+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"ERROR","time":"2023-08-17T09:50:28.548+0800","caller":"mysql/mysql.go:24","msg":"connect DB failed","error":"Error 1045: Access denied for user 'root'@'localhost' (using password: YES)"}
+{"level":"DEBUG","time":"2023-08-17T09:50:28.548+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"DEBUG","time":"2023-08-17T09:50:28.550+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-17T09:50:51.930+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T09:50:51.930+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-17T09:50:52.788+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"DEBUG","time":"2023-08-17T09:50:52.807+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"DEBUG","time":"2023-08-17T09:50:52.808+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-17T09:50:59.952+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T09:50:59.952+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-17T11:28:08.398+0800","caller":"go_web_scaffold/main.go:34","msg":"init logger success!"}
+{"level":"DEBUG","time":"2023-08-17T11:28:08.419+0800","caller":"go_web_scaffold/main.go:41","msg":"init mysql success!"}
+{"level":"DEBUG","time":"2023-08-17T11:28:08.420+0800","caller":"go_web_scaffold/main.go:48","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-17T11:28:21.791+0800","caller":"go_web_scaffold/main.go:74","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T11:28:21.791+0800","caller":"go_web_scaffold/main.go:84","msg":"Server exiting"}
+{"level":"DEBUG","time":"2023-08-17T13:24:50.772+0800","caller":"go_web_scaffold/main.go:33","msg":"init logger success!"}
+{"level":"DEBUG","time":"2023-08-17T13:24:50.783+0800","caller":"go_web_scaffold/main.go:40","msg":"init mysql success!"}
+{"level":"DEBUG","time":"2023-08-17T13:24:50.785+0800","caller":"go_web_scaffold/main.go:47","msg":"init redis success!"}
+{"level":"INFO","time":"2023-08-17T13:31:48.940+0800","caller":"go_web_scaffold/main.go:73","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T13:31:48.940+0800","caller":"go_web_scaffold/main.go:83","msg":"Server exiting"}
+{"level":"INFO","time":"2023-08-17T13:33:41.390+0800","caller":"go_web_scaffold/main.go:70","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T13:33:41.398+0800","caller":"go_web_scaffold/main.go:80","msg":"Server exiting"}
+{"level":"INFO","time":"2023-08-17T13:34:25.136+0800","caller":"go_web_scaffold/main.go:70","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T13:34:25.144+0800","caller":"go_web_scaffold/main.go:80","msg":"Server exiting"}
+{"level":"INFO","time":"2023-08-17T13:34:46.921+0800","caller":"go_web_scaffold/main.go:70","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T13:34:46.935+0800","caller":"go_web_scaffold/main.go:80","msg":"Server exiting"}
+{"level":"INFO","time":"2023-08-17T13:38:45.947+0800","caller":"go_web_scaffold/main.go:70","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T13:38:45.958+0800","caller":"go_web_scaffold/main.go:80","msg":"Server exiting"}
+{"level":"INFO","time":"2023-08-17T13:41:44.566+0800","caller":"go_web_scaffold/main.go:70","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T13:41:44.578+0800","caller":"go_web_scaffold/main.go:80","msg":"Server exiting"}
+{"level":"INFO","time":"2023-08-17T13:41:56.570+0800","caller":"go_web_scaffold/main.go:70","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T13:41:56.579+0800","caller":"go_web_scaffold/main.go:80","msg":"Server exiting"}
+{"level":"INFO","time":"2023-08-17T13:46:25.499+0800","caller":"go_web_scaffold/main.go:70","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T13:46:25.509+0800","caller":"go_web_scaffold/main.go:80","msg":"Server exiting"}
+{"level":"INFO","time":"2023-08-17T13:49:54.481+0800","caller":"go_web_scaffold/main.go:70","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T13:49:54.491+0800","caller":"go_web_scaffold/main.go:80","msg":"Server exiting"}
+{"level":"INFO","time":"2023-08-17T13:50:10.965+0800","caller":"go_web_scaffold/main.go:70","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T13:50:10.978+0800","caller":"go_web_scaffold/main.go:80","msg":"Server exiting"}
+{"level":"INFO","time":"2023-08-17T14:43:14.092+0800","caller":"logger/logger.go:70","msg":"/","status":200,"method":"GET","path":"/","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-08-17T14:43:14.547+0800","caller":"logger/logger.go:70","msg":"/favicon.ico","status":404,"method":"GET","path":"/favicon.ico","query":"","ip":"127.0.0.1","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36","errors":"","cost":0}
+{"level":"INFO","time":"2023-08-17T14:43:22.032+0800","caller":"go_web_scaffold/main.go:70","msg":"Shutdown Server ..."}
+{"level":"INFO","time":"2023-08-17T14:43:22.033+0800","caller":"go_web_scaffold/main.go:80","msg":"Server exiting"}

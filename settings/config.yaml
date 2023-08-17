@@ -1,7 +1,8 @@
-app:
-  name: "go_web_scaffold"
-  mode: "dev"
-  port: 8081
+name: "go_web_scaffold"
+mode: "dev"
+version: "v1.0"
+host: "127.0.0.1"
+port: 8081
 
 log:
   level: "debug"
@@ -12,10 +13,10 @@ log:
 
 mysql:
   host: "127.0.0.1"
-  port: 3306
+  port: 3308
   user: "root"
-  password: ""
-  dbname: "gomysql_demo"
+  password: "rootroot"
+  db_name: "gomysql_demo"
   max_open_conns: 20
   max_idle_conns: 10
 

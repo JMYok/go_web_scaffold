@@ -6,6 +6,7 @@ import (
 	"github.com/spf13/viper"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
+	"go_web_scaffold/settings"
 	"net"
 	"net/http"
 	"net/http/httputil"
@@ -18,10 +19,11 @@ import (
 // Init 初始化Logger
 func Init() (err error) {
 	writeSyncer := getLogWriter(
-		viper.GetString("log.filename"),
-		viper.GetInt("log.max_size"),
-		viper.GetInt("log.max_backups"),
-		viper.GetInt("log.max_age"))
+		settings.Conf.LogConfig.Filename,
+		settings.Conf.LogConfig.MaxSize,
+		settings.Conf.LogConfig.MaxBackups,
+		settings.Conf.LogConfig.MaxAge,
+	)
 	encoder := getEncoder()
 	var l = new(zapcore.Level)
 	err = l.UnmarshalText([]byte(viper.GetString("log.level")))
